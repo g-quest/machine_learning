@@ -19,7 +19,7 @@ def main():
     # check that proper arguments were entered in command line
     if len(sys.argv) != 3:
         print('ERROR: two arguments required')
-        print('usage: python3 classification.py <input_csv> <output_csv>')
+        print('usage: python3 classification.py classification_input.csv <output_csv>')
         sys.exit()
         
     # load dataset and feature scale
