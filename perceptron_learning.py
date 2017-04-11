@@ -8,7 +8,7 @@ def main():
     # check that proper arguments were entered in command line
     if len(sys.argv) != 3:
         print('ERROR: two arguments required')
-        print('usage: python3 perceptron_learning.py <input_csv> <output_csv>')
+        print('usage: python3 perceptron_learning.py perceptron_learning_input.csv <output_csv>')
         sys.exit()
     
     # load dataset and convert strings to integers
