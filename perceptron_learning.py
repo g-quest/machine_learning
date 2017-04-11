@@ -1,14 +1,4 @@
-'''
-Gregory V. Cuesta
-gvc2108
-4/2/2017
-
-COMS W4701 AI
-Assigment #3
-Problem #1
-
-written in Python 3
-'''
+# written in Python 3
 
 import sys
 import csv
@@ -18,7 +8,7 @@ def main():
     # check that proper arguments were entered in command line
     if len(sys.argv) != 3:
         print('ERROR: two arguments required')
-        print('usage: python3 problem1_3.py <input_csv> <output_csv>')
+        print('usage: python3 perceptron_learning.py <input_csv> <output_csv>')
         sys.exit()
     
     # load dataset and convert strings to integers
